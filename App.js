@@ -8,7 +8,7 @@ export default function App() {
   const [input, setInput] = useState("");
 
   const deleteTask = (deleteIndex) => {
-    setTasks(tasks.filter((value, index) => index != deleteIndex));
+    setTasks(tasks.filter((index) => index != deleteIndex));
   };
 
   return (
